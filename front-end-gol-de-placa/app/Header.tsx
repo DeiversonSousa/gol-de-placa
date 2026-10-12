@@ -4,7 +4,6 @@ import logoImg from '@/public/logotipo.svg';
 
 export default function Header() {
   return (
-    <div className="background-1">
         <header className="fixed top-5 left-5 right-5 z-20 p-5 border border-white/10 rounded-xl bg-white/2 backdrop-blur-sm overflow-hidden">
             <div className="w-full max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-4 px-8">
                 {/* Aqui é minha logo do navegador */}
@@ -32,7 +31,6 @@ export default function Header() {
                 </div>
                 {/*- fim do login e registro */}
             </div>      
-        </header>  
-    </div>   
+        </header>   
   );
 }

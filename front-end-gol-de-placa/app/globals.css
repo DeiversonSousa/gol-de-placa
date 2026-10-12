@@ -3,7 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --orange: #ff4d00;
+  --orange-dark: hsl(18,98%,41%);
+  --dark: #050505;
+  --white: #ffffff;
+  --glass: rgba(255, 255, 255, 0.9);
+  --shadow: rgba(0, 0, 0, 0.15);
 }
+
 
 @theme inline {
   --color-background: var(--background);
