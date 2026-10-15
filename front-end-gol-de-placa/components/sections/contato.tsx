@@ -31,7 +31,7 @@ export default function Contato() {
       id="contato"
       className="scroll-mt-27.5 bg-[linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,77,0,0.06))] px-5 pt-16 pb-20 sm:pt-22.5 sm:pb-30"
     >
-      <div className="mx-auto grid w-full max-w-360 items-center gap-10 min-[961px]:grid-cols-[1.1fr_1fr] min-[961px]:gap-14">
+      <div className="mx-auto grid w-full max-w-7xl items-center gap-10 min-[961px]:grid-cols-[1.1fr_1fr] min-[961px]:gap-14">
         {/* texto e canais de contato */}
         <div className="min-w-0">
           <p className="text-sm font-bold tracking-[1px] text-(--orange) uppercase">
