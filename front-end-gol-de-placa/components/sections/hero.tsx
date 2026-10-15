@@ -1,5 +1,9 @@
 import Image from "next/image";
 import Link from 'next/link';
+import TextoDigitado from "@/components/textodigitado";
+
+const palavras = ["FUTEBOL", "CAMPEONATO"];
+
 export default function Hero() {
   return (
     <>
@@ -7,7 +11,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-black/80"></div>
             {/* texto do meio da pagina */}
             <div className="relative z-10 mx-auto w-full max-w-7xl px-8 pt-60 text-center text-white">
-                <h1 className="text-5xl font-bold leading-[1.2] tracking-[1px]">GESTÃO PROFISSIONAL DE <br/><span className="words-wrappen"> </span><span>&nbsp;AMADOR</span></h1>
+                <h1 className="text-5xl font-bold leading-[1.2] tracking-[1px]">GESTÃO PROFISSIONAL DE <br/><span className="text-(--orange)"><TextoDigitado palavras={palavras} /> </span> AMADOR</h1>
                 <h3 className="mx-auto mt-4 text-[15px] leading-[1.6]">Gestão completa de ligas e torneios, tornando os campeonatos mais fáceis de organizar, jogar e acompanhar.</h3>
                 {/* fim do texto do meio */}
                 {/* botão do meio da pagina */}
